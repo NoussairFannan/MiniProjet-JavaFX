@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane styleClass="subject-container" stylesheets="@Admin-TableView.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mri.uiapp.HistoryController">
+  <center>
+    <VBox prefHeight="524.0" prefWidth="644.0" spacing="10" styleClass="table-container">
+      <Label maxWidth="1.7976931348623157E308" styleClass="section-title" text="History" />
+
+      <TextField fx:id="textFieldHistorySearch" maxWidth="1.7976931348623157E308" promptText="Search subjects..." styleClass="search-field" />
+
+      <TableView fx:id="tableViewHistory" styleClass="subject-table" VBox.vgrow="ALWAYS">
+        <columns>
+          <TableColumn fx:id="tableViewHistoryId" text="ID" />
+               <TableColumn fx:id="tableViewHistory1stName" prefWidth="127.20001220703125" text="1st Name" />
+               <TableColumn fx:id="tableViewHistory2ndName" prefWidth="160.7999725341797" text="2nd Name" />
+               <TableColumn fx:id="tableViewHistoryDate" prefWidth="108.0" text="Date" />
+        </columns>
+      </TableView>
+    </VBox>
+  </center>
+</BorderPane>

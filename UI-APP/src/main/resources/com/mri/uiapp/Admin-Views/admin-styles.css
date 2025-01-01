@@ -1,0 +1,68 @@
+.main-container {
+    -fx-background-color: #f4f6f9;
+}
+
+.top-bar {
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);
+}
+
+.admin-panel-title {
+    -fx-text-fill: #2c3e50;
+}
+.sidebar {
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);
+}
+
+.sidebar-title {
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+}
+
+.sidebar-separator {
+    -fx-background-color: #e0e4e8;
+}
+
+.sidebar-buttons {
+    -fx-padding: 10px;
+}
+
+.sidebar-button {
+    -fx-background-color: #f8f9fa;
+    -fx-text-fill: #2c3e50;
+    -fx-border-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.sidebar-button:hover {
+    -fx-background-color: #e9ecef;
+}
+
+.sidebar-button:pressed {
+    -fx-background-color: #dee2e6;
+}
+
+.profile-container {
+    -fx-alignment: center;
+}
+
+.profile-image {
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+}
+
+.profile-image-border {
+    -fx-fill: transparent;
+    -fx-stroke: #2c3e50;
+    -fx-stroke-width: 2px;
+    -fx-stroke-type: inside;
+}
+
+.content-area {
+    -fx-background-color: #f4f6f9;
+    -fx-padding: 20px;
+}
