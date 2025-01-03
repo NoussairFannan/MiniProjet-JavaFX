@@ -2,4 +2,6 @@
 *.sty
 *.tex
 Diagrams
-assets/8ea6826af91d017f3691ebf73f6396290.png
+*.log
+*.gz
+# assets
